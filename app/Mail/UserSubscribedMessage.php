@@ -31,7 +31,7 @@ class UserSubscribedMessage extends Mailable
      */
     public function build()
     {
-        return $this->view('email.subscribed', [
+        return $this->view('mail.subscribed', [
             "user" => $this->user,
             "website" => $this->website
         ]);

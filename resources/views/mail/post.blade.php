@@ -1,7 +1,7 @@
 <div>
 
-    <p>Hello <b>{$user->name}</b>,</p>
+    <p>Hello <b>{{$user->name}}</b>,</p>
     <p>
-        "{$post->title}" has been published.
+        "{{$post->title}}" has been published.
     </p>
 </div>
